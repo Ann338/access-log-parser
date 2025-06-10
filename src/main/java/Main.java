@@ -18,7 +18,7 @@ public class Main {
             }
 
             boolean isDirectory = file.isDirectory();
-            if (!isDirectory) {
+            if (isDirectory) {
                 System.out.println("Указанный путь ведет к папке, а не к файлу.");
                 continue;
             }
